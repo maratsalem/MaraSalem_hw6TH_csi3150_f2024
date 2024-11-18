@@ -1,4 +1,6 @@
 //selecting all required elements from html document
+/* .querySelector allows us to get information from an ID, class, 
+and can be used with CSS selectors to get children to access specific elements more easily */
 const start_btn = document.querySelector(".start_btn button");
 const info_box = document.querySelector(".info_box");
 const exit_btn = info_box.querySelector(".buttons .quit");

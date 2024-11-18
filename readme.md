@@ -615,6 +615,7 @@ footer button.show {
 ```
 
 2. Inside the quizApp.js file, insert the following code:
+
 ```
 //selecting all required elements from html document
 const start_btn = document.querySelector(".start_btn button");
@@ -875,3 +876,8 @@ function queCounter(index) {
   bottom_ques_counter.innerHTML = totalQueCounTag; //adding new span tag inside bottom_ques_counter
 }
 ```
+
+### Step 5: Testing Code
+
+1. To test the functionality of the code, run index.html with live server.
+   -Alternatively, you could host the project through github pages. See https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site for more information.
