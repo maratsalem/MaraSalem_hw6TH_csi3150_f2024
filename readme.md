@@ -20,7 +20,7 @@ The purpose of this application is to provide a web quiz application that tests 
 
 ## Tutorial Steps
 
-#### Step 1: Project directory setup
+### Step 1: Project directory setup
 
 1. Create a project folder in your desired project path. Then, create a new project in Visual Studio Code with the project folder you have created.
 
@@ -40,7 +40,7 @@ Note: This step can be done manually through the UI, or through bash. The choice
   index.html
 ```
 
-#### Step 2: Inserting quiz questions into questions.js
+### Step 2: Inserting quiz questions into questions.js
 
 - The 'questions.js' file functions as our 'backend' in this project. This javascript file will hold our quiz questions and answers, which we can then import to our quizApp.js for further use.
 
@@ -111,7 +111,7 @@ let questions = [
 
 ```
 
-#### Step 3: Build HTML UI
+### Step 3: Build HTML UI
 
 1. Inside index.html, include the following code:
 
@@ -127,7 +127,7 @@ let questions = [
     <link rel="stylesheet" href="./css/style.css">
     <!-- This is my personal font awesome kit code. you will have to add your own after you register with email-->
     <script src="https://kit.fontawesome.com/4a4f4b55b0.js" crossorigin="anonymous"></script>
-
+    
      <!-- Add questions list -->
     <script src="./js/questions.js" defer></script>
 
