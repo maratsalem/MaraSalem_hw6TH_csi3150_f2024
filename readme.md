@@ -113,6 +113,27 @@ let questions = [
 
 ### Step 3: Build HTML UI
 
+- HTML is our user interface, and deals with the way our website is structured. To ensure functionality between our HTML, CSS, and JS files, we add links and scripts to our html.
+
+In the below html code, you will see
+
+```
+    1. <!-- CSS FILE -->
+      <link rel="stylesheet" href="./css/style.css">
+
+    2. <!-- This is my personal font awesome kit code. you will have to add your own after you register with email-->
+    <script src="https://kit.fontawesome.com/4a4f4b55b0.js" crossorigin="anonymous"></script>
+
+    3. <!-- Add questions list -->
+      <script src="./js/questions.js" defer></script>
+
+    4. <!-- Main logic of the app -->
+      <script src="./js/quizApp.js" defer></script>
+```
+
+- This code is placed inside the header.
+  - 1.
+
 1. Inside index.html, include the following code:
 
 ```
@@ -127,7 +148,7 @@ let questions = [
     <link rel="stylesheet" href="./css/style.css">
     <!-- This is my personal font awesome kit code. you will have to add your own after you register with email-->
     <script src="https://kit.fontawesome.com/4a4f4b55b0.js" crossorigin="anonymous"></script>
-    
+
      <!-- Add questions list -->
     <script src="./js/questions.js" defer></script>
 
