@@ -1,18 +1,19 @@
 # Quiz App Demo Tutorial
 
-## Quiz App 
+## Quiz App
 
 The purpose of this application is to provide a web quiz application that tests the user’s knowledge from a select topic.
 
 ## Functional Features
+
 - The application must be able to display questions on a browser, and react to the user selecting an answer.
-- The application must be able to determine the correct answer and display it after the user has submitted their answer. 
+- The application must be able to determine the correct answer and display it after the user has submitted their answer.
 - The application must be able to time the user's response time towards each quiz question.
-- The quiz timer should be an optional choice for the user. 
+- The quiz timer should be an optional choice for the user.
 
-### Pre-requisites
+## Pre-requisites
 
-- This project will be using html, javascript, and css.
+- This project will be built using html, javascript, and css.
 - If you want to test your App development as you progress, make sure you have a live server available for use.
 - Recommended development software: Visual Studio Code.
   -Recommended development extensions for Visual Studio Code: Live Server, JavaScript (ES6) code snippets, HTML CSS Support
@@ -24,9 +25,11 @@ The purpose of this application is to provide a web quiz application that tests 
 1. Create a project folder in your desired project path. Then, create a new project in Visual Studio Code with the project folder you have created.
 
 2. Inside the folder, create an index.html file, and two new folders: JS and CSS. Inside the CSS folder, create a style.css file. Inside the JS folder, create questions.js and quizApp.js files.
-   -Note: This step can be done manually through the UI, or through bash. The choice is up to you.
+
+Note: This step can be done manually through the UI, or through bash. The choice is up to you.
 
 - Your project directory should look like this:
+
 ```
   Project Folder
     CSS
