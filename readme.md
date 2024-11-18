@@ -18,7 +18,7 @@ The purpose of this application is to provide a web quiz application that tests 
 - Recommended development software: Visual Studio Code.
   -Recommended development extensions for Visual Studio Code: Live Server, JavaScript (ES6) code snippets, HTML CSS Support
 
-### Tutorial Steps
+## Tutorial Steps
 
 #### Step 1: Project directory setup
 
